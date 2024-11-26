@@ -33,8 +33,8 @@ class _ProductBlocBuilderState extends State<ProductBlocBuilder> {
               productList: context.read<ProductsCubit>().productsList),
           verticalSpace(20),
           const CircularProgressIndicator(),
-          verticalSpace(20),
-          const ProductShimmerLoading(),
+          // verticalSpace(20),
+          // const ProductShimmerLoading(),
         ]);
       } else if (state is GetProductsFaliureState) {
         return Center(child: Text(state.error));

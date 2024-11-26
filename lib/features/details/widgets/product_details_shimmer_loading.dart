@@ -22,22 +22,7 @@ class ProductDetailsShimmerLoading extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              Positioned(
-                top: 10,
-                left: 10,
-                child: Shimmer.fromColors(
-                  baseColor: Colors.grey[300]!,
-                  highlightColor: Colors.grey[100]!,
-                  child: CircleAvatar(
-                    backgroundColor: Colors.white,
-                    radius: 20,
-                    child: Icon(
-                      Icons.arrow_back,
-                      color: Colors.grey[400],
-                    ),
-                  ),
-                ),
-              ),
+           
             ],
           ),
           verticalSpace(10),
@@ -47,7 +32,7 @@ class ProductDetailsShimmerLoading extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                // Title Placeholder
+         
                 Shimmer.fromColors(
                   baseColor: Colors.grey[300]!,
                   highlightColor: Colors.grey[100]!,

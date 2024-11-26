@@ -20,14 +20,14 @@ class ProductItem extends StatelessWidget {
         children: [
           Center(
               child: Image.network(
-            products.thumbnail ?? '',
+            products.thumbnail ?? 'none',
             height: 125.h,
           )),
           verticalSpace(5),
           Flexible(
             child: Text(
               overflow: TextOverflow.ellipsis,
-              products.title ?? '',
+              products.title ?? 'none',
               style: const TextStyle(fontWeight: FontWeight.bold),
             ),
           ),

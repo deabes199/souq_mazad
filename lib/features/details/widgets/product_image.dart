@@ -13,7 +13,7 @@ class ProductImage extends StatelessWidget {
           height: 400,
           width: double.infinity,
           child: Image.network(
-            products.thumbnail ?? '',
+            products.thumbnail ?? 'none',
             fit: BoxFit.fill,
           ),
         ),

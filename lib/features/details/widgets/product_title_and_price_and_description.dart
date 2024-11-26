@@ -15,7 +15,7 @@ class ProductTitleAndPriceAndDescription extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-           products.title ?? '',
+           products.title ?? 'none',
             style: TextStyle(fontSize: 18.sp, fontWeight: FontWeight.w400),
           ),
           verticalSpace(10),
@@ -32,7 +32,7 @@ class ProductTitleAndPriceAndDescription extends StatelessWidget {
             style: TextStyle(fontSize: 18.sp, fontWeight: FontWeight.w400),
           ),
           Text(
-            products.description ?? '',
+            products.description ?? 'none',
            
             style: TextStyle(color: Colors.grey.shade800),
           ),
